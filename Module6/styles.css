@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #202225;
+    color: #e0e0e0;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-container input[type="text"] {
+    padding: 10px 15px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: #3e4248;
+    color: #e0e0e0;
+    transition: 0.3s;
+}
+
+.search-container input[type="text"]:focus {
+    background: #3f4349;
+    box-shadow: 0 0 8px rgba(182, 186, 192, 0.6);
+}
+
+.search-container button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #0f9318;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #3e4248;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(74, 84, 99);
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+th a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+th a:hover {
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(74, 84, 99);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(55, 63, 74);
+}
+
+tbody tr:hover {
+    background-color: rgb(46, 51, 61);
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.pagination a, .pagination strong {
+    margin: 0 5px;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: normal;
+    color: #ffffff;
+    background: none;
+    transition: 0.2s;
+}
+
+.pagination a:hover {
+    color: rgb(113, 130, 154);
+}
+
+.pagination strong {
+    color: #ffffff;
+}
+
+.total-records {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
