@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-Welcome to **The Record Shoppe** This website is a database for adding and tracking records internally for the Record Shoppe. It is meant to be used exclusively by employees to help answer customer questions about inventory as quickly as possible.
+Welcome to **The Record Shoppe**! This website is a database for adding and tracking records internally for the Record Shoppe. It is meant to be used exclusively by employees to help answer customer questions about inventory as quickly as possible.
 
 ## 🔶 Table of Contents
 
@@ -18,8 +18,6 @@ Welcome to **The Record Shoppe** This website is a database for adding and track
 
 ## 🔺 Backend Files
 
-### Backend files include
-
 ### Database connection
 
 - conn.php (main file for connecting to database)
@@ -29,7 +27,6 @@ Welcome to **The Record Shoppe** This website is a database for adding and track
 
 - authentication.php (for credentials verification)
 - auth_check.php (for authentication verification)
-- 
 
 ### Other
 
