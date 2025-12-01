@@ -75,7 +75,7 @@ Welcome to **The Record Shoppe**! This website is a database for adding and trac
 
 ## 🔷 DJ Rex Chatbot
 
-### DJ Rex is a chatbot with pre-determined questions and responses. The chatbot appears on the welcome page after 5 seconds of having the page loaded, and features a text input box and send button. The bot has a fallback feature for questions it is not familiar with.
+### DJ Rex is a chatbot with pre-determined questions and responses. It was coded using php, JavaScript for its functionality, and PostgreSQL for storing questions and answers. The chatbot appears on the welcome page after 5 seconds of having the page loaded, and features a text input box and send button. The bot has a fallback feature for questions it is not familiar with.
 
   <img width="1800" alt="image" src="/FinalProject/public/images/chatbotFeature.png" />
 
